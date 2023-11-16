@@ -1,0 +1,31 @@
+<style>
+
+.w-slider-dot {
+	height: 6px;
+  width: 6px;
+  border-radius: 16px;
+  background: white;
+  top: 3px; 
+}
+
+
+.w-slider-dot.w-active {
+	height: 6px;
+  width: 24px;
+  border-radius: 16px;
+  top: 3px; 
+}
+
+.w-slider-nav-invert>div.w-active {
+	background-color: #00F4CB;
+}
+
+.w-slider-nav-invert>div {
+	background-color: #E2E6E9;
+}
+
+.w-slider-nav.w-round>div {
+  border-radius: 16px;
+}
+
+</style>
